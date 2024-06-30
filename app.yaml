@@ -1,0 +1,2 @@
+runtime: python38  # Or specify the Python runtime version you want to use
+entrypoint: gunicorn -b :$PORT app:app  # Adjust this for your Flask app
