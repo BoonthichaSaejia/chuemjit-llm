@@ -1,7 +1,7 @@
 function typhoon(prompt,temp,model='typhoon-v1.5x-70b-instruct') {
   var url = 'https://api.opentyphoon.ai/v1/chat/completions';
   var headers = {
-    'Authorization': 'Bearer sk-HIXjRoILEOFyphWhvyxDacK99v7XlDpzJfYmVD89J8ll0zYk',
+    'Authorization': 'typhoon_api_key',
     'Content-Type': 'application/json'
   };
   
@@ -74,7 +74,7 @@ function getIsanTranslation(opt="Thai Script 1") {
 
   var url = 'https://api.opentyphoon.ai/v1/chat/completions';
   var headers = {
-    'Authorization': 'Basic bGlnaHRuaW5nOlUyM3pMcFlHY3dmVzRzUGFy',
+    'Authorization': 'typhoon_api_key',
     'Content-Type': 'application/json'
   };
   
